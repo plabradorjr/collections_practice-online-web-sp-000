@@ -17,11 +17,11 @@ end
 
 #4a
 
-def swap_elements_from_to(array, index, destination_index)
-  if index == 1
-    destination_index =
-
-end
+#def swap_elements_from_to(array, index, destination_index)
+#  if index == 1
+#    destination_index = 
+#
+#end
 
 #4b
 def swap_elements(array)
