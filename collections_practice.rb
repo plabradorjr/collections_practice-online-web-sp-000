@@ -54,7 +54,7 @@ def add_s(input)
       if index == 2
         element
       else
-        element[-1,0] = "s"
+        element[element.size,0] = "s"
       end
     end
 end
