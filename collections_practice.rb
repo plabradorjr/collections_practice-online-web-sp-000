@@ -34,7 +34,7 @@ end
 
 #7
 def find_a(array)
-  array.collect do |x|
+  array.map do |x|
     a_array = []
       if x[0] == "a"
       a_array << x
