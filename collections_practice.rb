@@ -11,6 +11,7 @@ end
 
 def sort_array_char_count(array)
   array.sort do |x|
-    x.downcase.length
+    downcase_array = x.downcase
+    downcase_array.length
   end
 end
