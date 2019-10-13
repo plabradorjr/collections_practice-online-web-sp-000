@@ -52,7 +52,7 @@ end
 def add_s(input)
   input.each_with_index.collect do |element, index|
       if index == 2
-        nil
+        element
       else
         element[-1,0] = "s"
       end
