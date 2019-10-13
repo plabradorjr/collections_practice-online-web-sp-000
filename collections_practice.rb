@@ -49,6 +49,12 @@ def sum_array(array)
 end
 
 #9
-def add_s(array)
-
+def add_s(input)
+  input.each_with_index.collect do |element, index|
+      if index == 2
+        nil
+      else
+        element[-1,0] = "s"
+      end
+    end
 end
