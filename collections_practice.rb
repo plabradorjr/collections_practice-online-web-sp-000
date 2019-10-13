@@ -34,7 +34,7 @@ end
 
 #7
 def find_a(array)
-  array.map do |x|
+  array.each do |x|
     a_array = []
       if x[0] == "a"
       pass = x
