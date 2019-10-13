@@ -27,7 +27,9 @@ end
 
 #6
 def kesha_maker(string)
-
+  string.each do |x|
+    x[3] = "$"
+  end
 end
 
 #7
