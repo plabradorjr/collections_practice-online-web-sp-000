@@ -33,14 +33,13 @@ def kesha_maker(string)
 end
 
 #7
-def find_a(string)
-  string.each do |x|
+def find_a(array)
+  array.collect do |x|
     a_array = []
-      if x[0] == ("a" || "A")
+      if x[0] == "a"
       a_array << x
       end
       return a_array
-
     end
 end
 
