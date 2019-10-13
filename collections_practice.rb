@@ -37,7 +37,8 @@ def find_a(array)
   array.map do |x|
     a_array = []
       if x[0] == "a"
-      a_array << x
+      pass = x
+      a_array << pass
       else
       false
       end
