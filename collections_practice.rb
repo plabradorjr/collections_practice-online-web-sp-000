@@ -10,8 +10,7 @@ end
 
 
 def sort_array_char_count(array)
-  array.sort do |x|
-    downcase_array = x.downcase
-    downcase_array.length
+  array.sort do |a, b|
+    a.downcse <=> b.downcase
   end
 end
