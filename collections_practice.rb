@@ -15,27 +15,27 @@ def sort_array_char_count(array)
   end
 end
 
-
+#4
 def swap_elements(array)
 
 end
 
-
+#5
 def reverse_array(input)
   input.reverse
 end
 
-
+#6
 def kesha_maker(string)
 
 end
 
-
+#7
 def find_a(string)
 
 end
 
-
+#8
 def sum_array(array)
   array.each do |num|
     num
