@@ -34,8 +34,8 @@ end
 
 #7
 def find_a(string)
-  a_array = []
   string.each do |x|
+    a_array = []
       if x[0] == ("a" || "A")
       a_array << x
       end
