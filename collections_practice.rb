@@ -14,3 +14,10 @@ def sort_array_char_count(array)
     a.downcase.length <=> b.downcase.length
   end
 end
+
+
+
+def reverse_array(input)
+  input.reverse
+end
+
