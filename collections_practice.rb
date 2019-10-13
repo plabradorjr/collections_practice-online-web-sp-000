@@ -20,4 +20,3 @@ end
 def reverse_array(input)
   input.reverse
 end
-
