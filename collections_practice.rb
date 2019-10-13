@@ -39,8 +39,9 @@ def find_a(string)
       if x[0] == ("a" || "A")
       a_array << x
       end
+      return a_array
+
     end
-  return a_array
 end
 
 #8
