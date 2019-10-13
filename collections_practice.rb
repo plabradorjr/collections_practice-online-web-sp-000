@@ -34,16 +34,13 @@ end
 
 #7
 def find_a(array)
+  a_array = []
   array.each do |x|
-    a_array = []
       if x[0] == "a"
-      pass = x
-      a_array << pass
-      else
-      false
+      a_array << x
       end
-    return a_array
     end
+    a_array
 end
 
 #8
