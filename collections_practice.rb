@@ -50,6 +50,7 @@ end
 
 #9
 def add_s(input)
+  output = []
   input.each_with_index.collect do |element, index|
       if index == 1
         element
@@ -57,4 +58,5 @@ def add_s(input)
         element[element.size,0] = "s"
       end
     end
+    input
 end
