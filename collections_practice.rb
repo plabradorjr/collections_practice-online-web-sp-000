@@ -38,8 +38,10 @@ def find_a(array)
     a_array = []
       if x[0] == "a"
       a_array << x
+      else
+      false
       end
-      return a_array
+    return a_array
     end
 end
 
